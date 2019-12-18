@@ -1,0 +1,39 @@
+.main-container {
+    width: 244px;
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+  }
+  
+  .circle--active {
+    background: red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+  }
+  
+  .circle--shadow {
+    background: red;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    opacity: 0.5;
+  }
